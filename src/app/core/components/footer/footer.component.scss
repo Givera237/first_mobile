@@ -1,0 +1,38 @@
+footer
+{
+  background-color: aqua;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+
+}
+
+img
+{
+  width: 50px;
+  margin-top: 10px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
+
+.icone-bas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+  }
+}
